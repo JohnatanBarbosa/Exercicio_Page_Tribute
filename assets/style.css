@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kanit';
+}
+body{
+  background-color: #333;
+}
+
+section {
+  border: 2px solid grey;
+  border-radius: 25px;
+  margin: 10px;
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+section h6{
+  text-align: center;
+  font-size: 20px;
+}
+section h6 a{
+  text-decoration: none;
+  color: #000;
+}
+section h6 a:hover{
+  text-decoration: underline;
+
+}
+
+.layout {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.layout h1 {
+  font-family: 'Kanit';
+  font-size: 50px;
+}
+.layout p {
+  font-size: 20px;
+}
+.layout .animacao {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+.img {
+  opacity: 0;
+  width: 400px;
+  border-radius: 50%;
+
+  animation-name: anm1;
+  animation-delay: 3.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+  position: absolute;
+  width: 150px;
+  border-radius: 50%;
+}
+.img1 {
+  opacity: 0;
+  top: 190px;
+  left: 15px;
+
+  animation-name: anm1;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.img2 {
+  opacity: 0;
+  left: 15px;
+  top: 15px;
+
+  animation-name: anm1;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.img3 {
+  opacity: 0;
+  left: 15px;
+  top: 370px;
+
+  animation-name: anm1;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.img4 {
+  opacity: 0;
+  top: 190px;
+  right: 15px;
+
+  animation-name: anm1;
+  animation-delay: 1.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.img5 {
+  opacity: 0;
+  right: 15px;
+  top: 15px;
+
+  animation-name: anm1;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.img6 {
+  opacity: 0;
+  right: 15px;
+  top: 370px;
+
+  animation-name: anm1;
+  animation-delay: 2.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes anm1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.sobre {
+  width: 95%;
+  margin: 15px auto;
+}
+
+.filmes{
+  width: 100%;
+  height: auto;
+}
+.filmes h4{
+  text-align: center;
+  font-size: 30px;
+  margin: 15px auto;
+}
+.filmes ul li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.filmes ul li a{
+  text-decoration: none;
+  color: #000;
+}
+.filmes ul li a:hover{
+  text-decoration: underline;
+}
+
+.filmes ul li img{
+  width: 100px;
+  margin-right: 10px;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  background-color: #333;
+  color: #ddd;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color: #ddd;
+}
+footer a:hover{
+  text-decoration: underline;
+}
