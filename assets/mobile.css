@@ -1,0 +1,46 @@
+@media (max-width:900px){
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6{
+        display: none;
+    }
+    .img{
+        animation-delay: 0.5s;
+    }
+}
+@media (max-width:630px){
+    section{
+        margin: 0;
+        border-radius: 0;
+    }
+    .layout h1{
+        font-size: 35px;
+    }
+    .layout p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .img{
+        width: 200px;
+    }
+    .filmes h4{
+        font-size: 25px;
+        text-decoration: underline;
+    }
+    .filmes h3{
+        font-size: 17px;
+    }
+    .filmes p{
+        font-size: 15px;
+    }
+    .filmes ul li{
+        align-items: flex-start;
+    }
+    .filmes ul li img{
+        margin-top: 8px;
+        border-radius: 50%;
+    }
+}
